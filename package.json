@@ -1,0 +1,20 @@
+{
+  "name": "HTMLCSSJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "start": "npx live-server ./public -p 5500"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.5.2",
+  "devDependencies": {
+    "playwright": "^1.52.0",
+    "@types/node": "^22.15.2",
+    "http-server": "^14.1.1",
+    "@playwright/test": "^1.52.0"
+  }
+}
